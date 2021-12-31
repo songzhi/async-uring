@@ -1,0 +1,19 @@
+[package]
+name = "async-uring"
+version = "0.0.0"
+edition = "2021"
+authors = ["lsongzhi <lsongzhi@163.com>"]
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/async-uring/0.0.0/async-uring"
+repository = "https://github.com/songzhi/async-uring"
+homepage = "https://github.com/songzhi/async-uring"
+description = """
+io-uring support for the futures asynchronous runtime.
+"""
+categories = ["asynchronous", "network-programming"]
+keywords = ["async", "fs", "io-uring", "futures"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
